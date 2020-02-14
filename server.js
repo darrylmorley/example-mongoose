@@ -9,7 +9,7 @@ mongoose.connect(
     {
       auth: {
         user: "darryl",
-        password: "Ddb%@R8i%5n7BvQ"
+        password: process.env.DATABASE_PASSWORD
       }
     },
     { useNewUrlParser: true }
